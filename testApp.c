@@ -13,7 +13,13 @@ int main() {
     printf("Your number is: %d\n", *pnumber); // here we have * to dereference the pointer, because we want to print the value and not the memory address
     
     // Now we can also print the memory address of the variable
-    printf("Memory address is: %p\n", pnumber);
+    printf("Memory address is: %p\n", pnumber); // here pnumber is the memory address of the variable
+    
+    // we can also print the memory of the pointer itself
+    
+    printf("Memory address of the pointer itself is: %p\n", &pnumber); // here &pnumber is the memory address of the pointer itself
+    
+    
     
     
     
